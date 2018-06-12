@@ -1,1 +1,70 @@
-<h1>Header</h1>
+<section id="website-header">
+    <div class="small-header">
+        <div class="container">
+            <div class="col-md-12">
+            <div class="col-md-4">
+            <span><i class="fa fa-address-book"></i><span>9870 St Vincent Place, Glasgow, DC 45 Fr 45</span></span>
+           </div>
+           <div class="col-md-2">                
+            <a><i clsss="fa fa-phone-square"></i>800-987-65-43</a>
+            </div>
+            <div class="col-md-4">                    
+            <a><i class="fa fa-envelope-open"></i><span>info@companyname.com</span></a>
+            </div>
+            <div class="col-md-2" style="float:right">                    
+                <span><i class="fa fa-facebook"></i></span>
+                <span><i class="fa fa-linkedin"></i></span>
+                <span><i class="fa fa-twitter"></i></span>
+                <span><i class="fa fa-instagram"></i></span>
+                <span><i class="fa fa-google"></i></span>                
+            </div>                    
+          </div>
+        </div>
+    </div>
+    <div class="container">
+        <div>           
+            <nav class="navbar navbar-default" id="navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topMenu"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a routerLink="/">
+                        <img class="mt10nav" src="../../../assets/website/brand.png" alt="School Name">
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse top-menu" id="topMenu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class='Roboto' *ngFor="let item of navItemList">
+                            <a style="color:white;" routerLink="/">{{item.name}}
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <button class="_btn _btn-red mt10nav">Get In Touch</button>   
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="header-content">
+            <div class="col-md-8">
+                <span>Providing Best Quality Child Care Since 1985</span>
+            </div> 
+            <div class="info col-md-6 col-sm-8 col-xs-12">
+                <a class="col-md-6 col-sm-6 col-xs-6">
+                    <button class="_btn _btn-red">CONTACT US</button>     
+                </a>
+                <a class="col-md-6 col-sm-6 col-xs-6">
+                    <button class="_btn _btn-default ml60">READ MORE</button>     
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

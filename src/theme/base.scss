@@ -1,0 +1,29 @@
+//margins
+.mt2per {
+    margin-top: 2%;
+}
+.mt10nav {
+    margin-top: -10% 
+}
+
+._btn-red {
+    background: rgb(237, 50, 56);
+    border-color: rgb(255, 255, 255);
+    
+}
+._btn-default {
+    background: rgba(0, 0, 0, 0);
+    border-color: rgb(255, 255, 255);    
+}
+._btn {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    line-height: 1;
+    font-family: Roboto;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100px;
+    padding: 15px 25px
+}

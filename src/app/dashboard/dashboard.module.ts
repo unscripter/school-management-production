@@ -15,8 +15,8 @@ import { FormsModule } from '@angular/forms';
 	entryComponents: [
 	],
 	imports: [
-		// StudentModule,
-		// ParentsModule,
+		StudentModule,
+		ParentsModule,
 		routing,
 		CommonModule,
 		FormsModule

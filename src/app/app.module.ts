@@ -7,6 +7,8 @@ import { PageNotFoundComponent } from './app.component.notfound';
 import { Website } from './website/website';
 import { DashBoardModule } from './dashboard/dashboard.module';
 import { Dashboard } from './dashboard/dashboard';
+import { Login } from './login/login';
+import { LoginModule } from './login/login.module';
 
 
 @NgModule({
@@ -14,12 +16,14 @@ import { Dashboard } from './dashboard/dashboard';
     AppComponent,
     PageNotFoundComponent,
     Website,
-    Dashboard
+    Dashboard,
+    Login
   ],
   imports: [
     BrowserModule,
     WebsiteModule,
     DashBoardModule,
+    LoginModule,
     routing
   ],
   providers: [],

@@ -7,10 +7,10 @@ import { NgModule } from '@angular/core';
 	entryComponents: [
 	],
 	imports: [
-		BrowserModule
+		BrowserModule,
 	],
 	exports: [
 	],
 	providers: [],
 })
-export class ParentsModule { }
+export class LoginModule { }

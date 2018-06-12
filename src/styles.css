@@ -1,3 +1,3 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('theme/dashboard.css');
-@import url('theme/login.css');
+@import url('theme/dashboard.scss');
+@import url('theme/login.scss');

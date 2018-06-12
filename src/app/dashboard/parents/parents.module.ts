@@ -1,4 +1,3 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 @NgModule({
@@ -7,7 +6,6 @@ import { NgModule } from '@angular/core';
 	entryComponents: [
 	],
 	imports: [
-		BrowserModule
 	],
 	exports: [
 	],

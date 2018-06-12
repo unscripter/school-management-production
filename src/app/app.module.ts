@@ -1,14 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { WebsiteModule } from './website/website.module';
 import { AppComponent } from './app.component';
 import { routing } from './app.routing.module';
 import { PageNotFoundComponent } from './app.component.notfound';
 import { Website } from './website/website';
-import { DashBoardModule } from './dashboard/dashboard.module';
-import { Dashboard } from './dashboard/dashboard';
 import { Login } from './login/login';
-import { LoginModule } from './login/login.module';
+// import { CommonModule } from '@angular/common';
+import { BrowserModule } from '@angular/platform-browser';
+
 
 
 @NgModule({
@@ -16,15 +15,13 @@ import { LoginModule } from './login/login.module';
     AppComponent,
     PageNotFoundComponent,
     Website,
-    Dashboard,
     Login
   ],
   imports: [
     BrowserModule,
     WebsiteModule,
-    DashBoardModule,
-    LoginModule,
-    routing
+    routing,
+    // CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
